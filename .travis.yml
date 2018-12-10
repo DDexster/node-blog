@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - '9'
+  - '10'
 
 dist: trusty
 
@@ -19,7 +19,7 @@ cache:
 
 install:
   - npm install
-  - npm run build -y
+  - npm run build
 
 script:
   - nohup npm run start &
