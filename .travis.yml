@@ -19,7 +19,7 @@ cache:
 
 install:
   - npm install
-  - npm run build
+  - npm run build -y
 
 script:
   - nohup npm run start &
