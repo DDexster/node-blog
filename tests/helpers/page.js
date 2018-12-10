@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const sessionFactory = require('../factories/session-factory');
 const userFactory = require('../factories/user-factory');
 
+// Proxies tryout
 class Page {
   static async build() {
     const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
