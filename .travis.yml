@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - '10'
+  - '9.11.2'
 
 dist: trusty
 
@@ -18,7 +18,8 @@ cache:
     - client/node_modules
 
 install:
-  - npm install
+  - npm i -g npm@6.5.0
+  - npm install --silent
   - npm run build
 
 script:
