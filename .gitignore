@@ -3,3 +3,4 @@ nohup.out
 .DS_Store
 .idea
 config/dev.js
+config/dev-bcp.js
